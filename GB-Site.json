@@ -1,7 +1,7 @@
 {
     "x-namespace":"Elements",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/junaidnzargar/GB-Custom-Test-Schemas/main/GB-theNewSite.json",
+    "$id": "https://raw.githubusercontent.com/junaidnzargar/GB-Custom-Test-Schemas/main/GB-Site.json",
     "description": "Describes a Site.",
     "title": "Site",
     "type": "object",
