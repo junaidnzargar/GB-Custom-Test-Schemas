@@ -18,7 +18,7 @@
     {
         "siteProfile" :
         {
-            "description": "The Random Property",
+            "description": "The Profile of the Site",
             "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
         
         }
