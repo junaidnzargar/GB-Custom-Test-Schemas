@@ -1,0 +1,27 @@
+{
+    "x-namespace":"Elements",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "url",
+    "description": "Describes a Site.",
+    "title": "randomElement",
+    "type": "object",
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["randomProperty"],
+    "properties": 
+    {
+        "randomProperty" :
+        {
+            "description": "The Random Property",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        
+        }
+    },
+    "additionalProperties": true
+}
