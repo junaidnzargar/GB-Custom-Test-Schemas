@@ -25,7 +25,7 @@
         "siteArea" :
         {
             "description": "The Area of the Site",
-            "$ref": "number"        
+            "type": "number"        
         },
     },
     "additionalProperties": true
