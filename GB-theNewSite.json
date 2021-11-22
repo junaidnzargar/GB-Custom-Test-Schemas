@@ -13,10 +13,10 @@
             "$ref": "https://hypar.io/Schemas/GeometricElement.json"
         }
     ],
-    "required": ["randomProperty"],
+    "required": ["siteProfile"],
     "properties": 
     {
-        "randomProperty" :
+        "siteProfile" :
         {
             "description": "The Random Property",
             "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
