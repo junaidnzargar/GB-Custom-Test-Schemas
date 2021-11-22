@@ -21,7 +21,12 @@
             "description": "The Profile of the Site",
             "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
         
-        }
+        },
+        "siteArea" :
+        {
+            "description": "The Area of the Site",
+            "$ref": "number"        
+        },
     },
     "additionalProperties": true
 }
