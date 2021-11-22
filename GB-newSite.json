@@ -1,0 +1,33 @@
+{
+    "x-namespace":"Elements",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/junaidnzargar/GB-Custom-Test-Schemas/main/GB-Site.json",
+    "description": "Describes a Site.",
+    "title": "newSite",
+    "type": "object",
+
+
+    "allOf":
+    [
+        {
+            "$ref": "https://hypar.io/Schemas/GeometricElement.json"
+        }
+    ],
+    "required": ["newSiteProfile", "Representation"],
+    "properties": 
+    {
+        "newSiteProfile" :
+        {
+            "description": "The Profile of the Site",
+            "$ref": "https://hypar.io/Schemas/Geometry/Profile.json"
+        
+        },
+        "newSiteArea":
+        {
+            "description": "The Area of the Site.",
+            "$ref": "number",
+            "minimum": 0   
+        }
+    },
+    "additionalProperties": true
+}
